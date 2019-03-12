@@ -1,46 +1,68 @@
 
+
 # v-collapse-transition
 > vue折叠动画组件, 参照element-ui
 
 
-## Build Setup
-
-### 开发
+## Install
 
 ```bash
-
-# Clone project
-
-git clone https://github.com/clsczy/v-collapse-transition.git
-
-
-# Install dependencies
-
-npm install
-
-# 建议不要用cnpm 安装有各种诡异的bug 可以通过如下操作解决npm速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
-
-
-# Serve with hot reload at localhost:8080
-
-npm run dev
-
-
+npm i -S v-collapse-transition
 ```
 
-### 发布
+## Usage
 
+Plugin install:
 
-## 构建生产环境
+```js
+import Vue from 'vue'
+import VCollapseTransitionfrom 'v-collapse-transition'
 
-npm run build
+Vue.use(VCollapseTransitionfrom)
+```
 
-### 其他
+Or work on a Vue instance:
+
+```
+<template>
+	<div>
+		<button  @click='show=!show'></button>
+		<v-collapse-transition>
+			<ul  v-show="show">
+				<li>需折叠切换的内容</li>
+				<li>需折叠切换的内容</li>
+				<li>需折叠切换的内容</li>
+				<li>需折叠切换的内容</li>
+				<li>需折叠切换的内容</li>
+				<li>需折叠切换的内容</li>
+			</ul>
+		</v-collapse-transition>
+	</div>
+</template>
+
+<script>
+import VCollapseTransitionfrom 'v-collapse-transition'
+export  default {
+	data() {
+		return {
+			show:  false
+		};
+	},
+	components: {
+		VCollapseTransitionfrom 
+	}
+};
+</script>
+
+<style>
+
+</style>
+```
+
 
 ## Demo
 
-[地址](/)
+[地址待更新](/)
 
 ## Browsers support
 
