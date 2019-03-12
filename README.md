@@ -2,12 +2,6 @@
 # v-collapse-transition
 > vue折叠动画组件, 参照element-ui
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-collapse 展开折叠
-
 
 ## Build Setup
 
