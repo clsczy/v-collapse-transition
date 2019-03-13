@@ -26,3 +26,4 @@ export default {
   VCollapseTransition,
 
 }
+export { VCollapseTransition }
