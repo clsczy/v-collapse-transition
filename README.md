@@ -16,9 +16,9 @@ Plugin install:
 
 ```js
 import Vue from 'vue'
-import VCollapseTransitionfrom 'v-collapse-transition'
+import VCollapseTransition 'v-collapse-transition'
 
-Vue.use(VCollapseTransitionfrom)
+Vue.use(VCollapseTransition)
 ```
 
 Or work on a Vue instance:
@@ -49,7 +49,7 @@ export  default {
 		};
 	},
 	components: {
-		VCollapseTransitionfrom 
+		VCollapseTransition
 	}
 };
 </script>
