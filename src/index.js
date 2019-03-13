@@ -11,9 +11,14 @@ const install = function (Vue, opts = {}) {
   })
 }
 
-/* 支持使用标签的方式引入 */
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
+let GlobalVue = null
+if (typeof window !== 'undefined') {
+  GlobalVue = window.Vue
+} else if (typeof global !== 'undefined') {
+  GlobalVue = global.Vue
+}
+if (GlobalVue) {
+  GlobalVue.use(plugin)
 }
 
 export default {
