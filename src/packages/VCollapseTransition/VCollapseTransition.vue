@@ -67,7 +67,7 @@ export function removeClass(el, cls) {
   }
 }
 export default {
-  name: 'CollapseTransition',
+  name: 'VCollapseTransition',
   methods: {
     beforeEnter(el) {
       addClass(el, "collapse-transition");

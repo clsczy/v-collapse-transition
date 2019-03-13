@@ -41,7 +41,7 @@ Or work on a Vue instance:
 </template>
 
 <script>
-import VCollapseTransitionfrom 'v-collapse-transition'
+import { VCollapseTransition } from 'v-collapse-transition'
 export  default {
 	data() {
 		return {

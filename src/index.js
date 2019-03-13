@@ -1,8 +1,8 @@
-import CollapseTransition from './packages/CollapseTransition/index.js';
+import VCollapseTransition from './packages/VCollapseTransition/index.js';
 
 
 const components = [
-  CollapseTransition,
+  VCollapseTransition,
 ]
 
 const install = function (Vue, opts = {}) {
@@ -23,6 +23,6 @@ if (GlobalVue) {
 
 export default {
   install,
-  CollapseTransition,
+  VCollapseTransition,
 
 }
