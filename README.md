@@ -62,7 +62,7 @@ export  default {
 
 ## Demo
 
-[地址待更新](/)
+[地址]( https://clsczy.github.io/v-collapse-transition/index.html)
 
 ## Browsers support
 
